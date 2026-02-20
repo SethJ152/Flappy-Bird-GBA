@@ -1,6 +1,6 @@
 // (C) Seth Jones 2026
-// Flappy Bird Game Beta
-// Version "Angry Cow" (Beta 0.1.1)
+// Flappy Bird Game (Educational Purposes Only)
+// Version "Swift Eagle" (Alpha 1.0.0)
 
 #include <tonc.h>
 #include <tonc_input.h>
