@@ -11,7 +11,7 @@ CFLAGS += -Iinclude
 LDFLAGS := -mthumb -mthumb-interwork -specs=gba.specs
 LDFLAGS += -L$(DEVKITPRO)/libtonc/lib -ltonc
 
-CFILES := source/main.c source/Background.c source/tube.c source/tube_top.c source/bird.c
+CFILES := source/main.c source/Background.c source/tube.c source/tube_top.c source/tube_top_seal.c source/tube_bottom_seal.c source/bird.c
 
 OBJFILES := $(CFILES:.c=.o)
 

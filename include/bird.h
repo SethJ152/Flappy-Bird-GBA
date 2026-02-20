@@ -5,11 +5,11 @@
 //
 //	bird, 32x32@4, 
 //	Transparent color : FF,00,FF
-//	+ palette 16 entries, not compressed
+//	+ palette 256 entries, not compressed
 //	+ 16 tiles not compressed
-//	Total size: 32 + 512 = 544
+//	Total size: 512 + 512 = 1024
 //
-//	Time-stamp: 2026-02-16, 17:06:43
+//	Time-stamp: 2026-02-20, 16:19:52
 //	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 //	( http://www.coranac.com/projects/#grit )
 //
@@ -21,8 +21,8 @@
 #define birdTilesLen 512
 extern const unsigned int birdTiles[128];
 
-#define birdPalLen 32
-extern const unsigned short birdPal[16];
+#define birdPalLen 512
+extern const unsigned short birdPal[256];
 
 #endif // GRIT_BIRD_H
 
