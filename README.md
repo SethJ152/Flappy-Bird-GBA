@@ -1,5 +1,9 @@
-# Flappy-Bird-GBA
-This is flappy bird made for the gameboy advance (GBA). 
-I made it to learn more about game development and just as a fun project. I do like to update it a lot to improve it and learn more. I started this in February 2026.
+# Flappy Bird GBA
 
-I DO NOT OWN THE RIGHTS TO SOME THINGS IN THIS REPO. I SIMPLY USED IT FOR EDUCATIONAL PURPOSES AND WILL REMOVE IT UPON REQUEST.
+A Flappy Bird clone for the Game Boy Advance (GBA), created to learn about GBA game development. I started this project in February 2026 and continue to update it as a fun way to improve my skills.
+
+It's a simple game optimized for the platform
+
+Educational Purpose
+
+This project is for learning and educational use. Some assets used are not owned by me and are only included for educational purposes. I will remove them upon request.
