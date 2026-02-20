@@ -1,2 +1,7 @@
 *.sav
+*.swp
+*.o
+*.elf
+*.env
 .vscode/
+.tmp/
