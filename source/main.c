@@ -1,5 +1,7 @@
 // (C) Seth Jones 2026
-// Flappy Bird prototype with bird offsets and three tubes
+// Flappy Bird Game Beta
+// Version "Angry Cow" (Beta 0.1.1)
+
 #include <tonc.h>
 #include <tonc_input.h>
 #include <string.h>
@@ -31,7 +33,7 @@ int menu(void) {
         vid_vsync();
         key_poll();
         if (key_is_down(KEY_START)) {
-            break; // Exit menu on START button press
+            break;
         }
     }
     return 0;
@@ -42,9 +44,9 @@ int main(void) {
     REG_DISPCNT = DCNT_MODE0 | DCNT_OBJ | DCNT_OBJ_1D | DCNT_BG0;
 
     // Load background colors, tiles, and map
-    memcpy(pal_bg_mem, BackgroundPal, BackgroundPalLen);
-    memcpy(&tile_mem[0][0], BackgroundTiles, BackgroundTilesLen);
-    memcpy(&se_mem[31][0], BackgroundMap, BackgroundMapLen);
+    memcpy(pal_bg_mem, BackgroundPal, BackgroundPalLen); // Pallete loading
+    memcpy(&tile_mem[0][0], BackgroundTiles, BackgroundTilesLen); // Tiles loading
+    memcpy(&se_mem[31][0], BackgroundMap, BackgroundMapLen); //
     REG_BG0CNT = BG_CBB(0) | BG_SBB(31) | BG_4BPP | BG_REG_32x32;
 
     // Load tube palette and tiles
