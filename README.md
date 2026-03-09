@@ -4,6 +4,8 @@ A Flappy Bird clone for the Game Boy Advance (GBA), created to learn about GBA g
 
 It's a simple game optimized for the platform
 
-Educational Purpose
-
 This project is for learning and educational use. Some assets used are not owned by me and are only included for educational purposes. I will remove them upon request.
+
+Please note tha the rights to the name and some assets are not owned by me. 
+
+If you wish to help with this project, that would be great.
